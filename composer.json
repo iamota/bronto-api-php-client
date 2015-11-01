@@ -11,9 +11,7 @@
     "symfony/console": "2.6.*"
   },
   "autoload": {
-    "psr-0": {
-      "\\": "src/"
-    }
+    "classmap": ["src/Bronto"]
   },
   "scripts": {
     "test": "phpunit"
